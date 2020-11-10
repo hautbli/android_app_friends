@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardview_recyclerview"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/imageview_feed"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView_feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/editbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="수정"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/deletebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="삭제"
+            android:textSize="10sp" />
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:id="@+id/star_full"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/yellow_star"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/star_default"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/star_default"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

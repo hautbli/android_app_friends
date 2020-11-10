@@ -1,0 +1,9 @@
+<resources>
+        <string name="app_name">Myfeed</string>
+
+    <string name="admob_app_id">ca-app-pub-9277462992688896~9785313261</string>
+
+    <!--    <string name="banner_ad_unit_id">광고 단위 ID</string>-->
+
+    <string name="banner_ad_unit_id_for_test">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

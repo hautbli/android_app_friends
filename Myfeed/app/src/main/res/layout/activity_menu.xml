@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/friends"
+        android:layout_marginBottom="100dp"/>
+
+    <Button
+        android:id="@+id/news_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#413A3A"
+        android:text="fine dust"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/wetaher_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="weather"
+        android:background="#413A3A"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/stopwatch_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="stopwatch"
+        android:background="#413A3A"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:background="#413A3A"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        />
+    </LinearLayout>
